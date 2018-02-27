@@ -15,8 +15,7 @@ const router = new Router();
 import {indexController} from './controller/pages/router';
 app.keys = ['ylb'];
 
-router.get('/',indexController);
-
+router.get('/index',indexController);
 app.use(cors());
 app
     .use(router.routes())
