@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no, address=no">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/register.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <script type="text/javascript" src="js/flexible_css.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/register.js"></script>
+    <title>注册</title>
+
+    <link rel="canonical" href="https://www.chinabidding.cn/cblcn/member.regist/regist_one?url=">
+　　<meta name="applicable-device" content="mobile"/>
+　　<meta http-equiv="Cache-Control" content="no-siteapp"/>
+　　<meta http-equiv="Cache-Control" content="no-transform"/>
+
+</head>
+<body>
+<div id="register">
+    <div data-reactroot="" class="module-register">
+        <div class="module-Header">
+            <div class="top-search">
+                <h1><a href="/index"><img class="logo" src="img/logo.png" alt="采购与招标网"></a></h1>
+                <span class="search-container">
+                    <a class="serch-btn" href="javascript:;"><img src="img/search.png"></a>
+                    <a href="/search"><input class="search-input" placeholder="点击进入搜索" type="text"></a>
+                </span>
+                    <a class="login" href="/login">登录/注册</a>
+            </div>
+        </div>
+        <div class="Register">
+            <div class="nav"><span><a href="/">首页</a></span>&gt;<span><a href="/regist">注册</a></span></div>
+            <ul>
+                <li class="reg-list"><p>用户名<span class="must-red">*</span></p>    
+                    <input class="reg-input input user"      name="" placeholder="6-16位小写字母或数字" maxlength="16" minlength="6" value="" type="text"></li>
+                <li class="reg-list"><p>密码<span class="must-red">*</span></p>      
+                    <input class="reg-input input password"      name="" placeholder="" minlength="6" value="" type="password"></li>
+                <li class="reg-list intensity hide">
+                    <p>密码强度</p>
+                    <!-- 强度class w t s 换行方式是inline-block元素的兼容性hack不能改变-->
+                    <ul class="strength s">
+                        <li class="weak hide">弱</li><li class="middle hide">中</li><li class="strong hide">强</li>
+                    </ul>
+                </li>
+                <li class="reg-list"><p>确认密码<span class="must-red">*</span></p>  
+                    <input class="reg-input input passwordAgain"       name="请再次输入密码" maxlength="16" minlength="6" value="" type="password"></li>
+                <li class="reg-list"><p>公司名称<span class="must-red">*</span></p>  
+                    <input class="reg-input input corporation"       name="" placeholder="请输入公司全称含分公司或办事处" value="" type="test"></li>
+                <li class="reg-list"><p>联系人姓名<span class="must-red">*</span></p>
+                    <input class="reg-input input name"       name="" value="" type="test"></li>
+                <li class="reg-list"><p>电子邮箱<span class="must-red">*</span></p>  
+                    <input class="reg-input input email"       name="" placeholder="请填写您的电子邮箱，方便我们将最新项目发送到您的邮箱" value="" type="email">
+                    <input class="reg-code input code" name="" placeholder="验证码" value="" type=""><span class="reg-iq"></span></li>
+                <li class="reg-list"><p>手机号码<span class="must-red">*</span></p>  
+                    <input class="reg-input input phone"       name="" maxlength="11" value="" type="tel"></li>
+                <li class="reg-list" id="changeArea"><p>地区<span class="must-red" style="float:right">[请选择地区]</span></p></li>
+                <div class="area hide">
+                    <span>北京</span><span>天津</span><span>上海</span><span>重庆</span><span>河北</span>
+                    <span>山西</span><span>辽宁</span><span>吉林</span><span>黑龙江</span><span>江苏</span>
+                    <span>浙江</span><span>安徽</span><span>福建</span><span>江西</span><span>山东</span>
+                    <span>河南</span><span>湖北</span><span>湖南</span><span>广东</span><span>海南</span>
+                    <span>四川</span><span>贵州</span><span>云南</span><span>陕西</span><span>甘肃</span>
+                    <span>青海</span><span>台湾</span><span>广西</span><span>内蒙古</span><span>西藏</span>
+                    <span>宁夏</span><span>新疆</span><span>香港</span><span>澳门</span>
+                </div>
+                <a class="btn btn-register" href="javascript:;">立即注册</a>
+            </ul>
+        </div>
+    </div>
+    <div class="wrong hide">
+        <span class="text"></span>
+    </div>
+</div>
+<!-- <script src="/js/register.js"></script><div class="toast toast-black"></div><div class="toast toast-black"></div> -->
+</body>
+</html>

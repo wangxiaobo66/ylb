@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="Ie=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no, address=no">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/icon.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/revise.css">
+        <script type="text/javascript" src="js/flexible_css.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/revise.js"></script>
+	<title>修改密码-采购与招标网</title>
+</head>
+<body>
+<div id="login" style="width:100%">
+    <div data-reactroot="" class="module-login">
+        <div class="module-Header">
+            <div class="top-search">
+                <h1><a href="/index"><img class="logo" src="img/logo.png" alt="采购与招标网"></a></h1>
+                <span class="search-container">
+                    <a class="serch-btn" href="javascript:;"><img src="img/search.png"></a>
+                    <a href="/search"><input class="search-input" placeholder="点击进入搜索" type="text"></a>
+                </span>
+                    <a class="mine" href="/my">我的</a>
+            </div>
+        </div>
+        
+        <div class="Login">
+            <div class="nav"><span><a href="/">首页</a></span>&gt;<span><a href="/my">我的</a></span>&gt;<span><a href="/revise">修改密码</a></span></div>
+            <div class="content">
+                <p class="title">当前密码</p><input class="input-full password" value="" placeholder="请输入您的当前密码"   type="password" id="oldPassword">
+                <p class="title">新密码</p><input class="input-full password" value="" placeholder="请输入您的新密码"   type="password" id="newPassword">
+                <div class="title intensity hide">
+                    <p>密码强度</p>
+                    <ul class="strength">
+                        <li class="weak hide">弱</li><li class="middle hide">中</li><li class="strong hide">强</li>
+                    </ul>
+                </div>
+                <p class="title">确认密码</p><input class="input-full password" value="" placeholder="请再次输入您的新密码"   type="password" id="againPassword">
+                <p class="title">
+                    <input class="reg-code input code" name="" placeholder="验证码" value="" type=""><span class="reg-iq"></span>
+                </p>
+                <a class="btn btn-login">确认</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrong hide">
+        <span class="text"></span>
+    </div>
+</div>
+</html>

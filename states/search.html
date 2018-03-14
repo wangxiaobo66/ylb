@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="Ie=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no, address=no">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/icon.css">
+        <link rel="stylesheet" type="text/css" href="css/nav.css">
+        <link rel="stylesheet" type="text/css" href="css/list.css">
+        <link rel="stylesheet" type="text/css" href="css/SearchHeader.css">
+        <script type="text/javascript" src="js/flexible_css.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/SearchHeader.js"></script>
+        <script type="text/javascript" src="js/Search.js"></script>
+	<title>搜索-采购与招标网</title>
+</head>
+<body>
+<div id="search">
+    <div data-reactroot="" class="module-list">
+        
+        <div class="Search">
+            <div class="top-search">
+                <div class="search-container">
+                    <a class="serch-btn" href="javascript:;"><img src="img/search.png"></a>
+                    <form action="javascript:;">
+                        <input class="search-input" value="" name="" placeholder="请输入与你要搜索的内容" type="text" style="width:7.4rem;color:#999;">
+                        <img src="img/clear.png" id="clear" class="clear">
+                    </form>
+                </div>
+                <a class="cancel" href="javascript:;" id="Search">搜索</a>
+                <div class="catalogue">
+                    <ul class="ul-table">
+                        <li name="column">栏目<img src="img/down_arrow.png"/></li>
+                        <li name="content">内容<img src="img/down_arrow.png"/></li>
+                        <li name="area">地区<img src="img/down_arrow.png"/></li>
+                        <li name="trade">行业<img src="img/down_arrow.png"/></li>
+                        <li name="time">时间<img src="img/down_arrow.png"/></li>
+                    </ul>
+                    <!--历史记录-->
+                    <div class="search-history" id="searchHistory">
+                        <ul>
+                            <a href="javascript:;" class="btn-delete" id="Delete">删除历史记录</a>
+                        </ul>
+                    </div>
+                    <!--热门搜索词-->
+                    <div class="search-hot" id="searchHot">
+                        <p>您可能感兴趣的热门搜索词</p>
+                        <ul>
+                            <li>工程建设</li><li>土石方</li><li>工程施工</li>
+                            <li>广告招标</li><li>房地产招标</li><li>电力招标</li>
+                            <li>公路招标</li><li>政府工程</li><li>水利招标</li>
+                            <li>移动招标</li><li>燃气招标</li><li>铁路招标</li>
+                            <li>药品招标</li><li>物业公司</li><li>服装招标</li>
+                            <li>电缆招标</li><li>电厂招标</li><li>电信招标</li>
+                            <li>地铁招标</li><li>监理招标</li><li>风电招标</li>
+                            <li>设计招标</li><li>机场招标</li><li>消防招标</li>
+                            <li>银行招标</li><li>铁塔招标</li><li>光伏招标</li>
+                            <li>联通招标</li><li>电梯招标</li><li>高速公路</li>
+                        </ul>
+                    </div>
+                    <!--table选择-->
+                    <div class="catalogue-list">
+                        <div class="column hidden" id="column">
+                            <span class="" id="all_column">全部</span>
+                            <p></p>
+                            <span class="column_class" name="1">工程招标</span>
+                            <span class="column_class" name="2">货物招标</span>
+                            <span class="column_class" name="3">服务招标</span>
+                            <span class="column_class" name="4">招标预告</span>
+                            <span class="column_class" name="5">中标公示</span>
+                            <span class="column_class" name="6">政府采购</span>
+                            <span class="column_class" name="7">企业采购</span>
+                        </div>
+                        <div class="content hidden" id="content">
+                            <span>标题</span>
+                            <span>内容</span>
+                            <span>招标编号</span>
+                        </div>
+                        <div class="area hidden" id="area">
+                            <span>全国</span>
+                            <p></p>
+                            <div>
+                                <p>华北</p>
+                                <span>北京</span>
+                                <span>天津</span>
+                                <span>河北</span>
+                                <span>山西</span>
+                                <span>内蒙古</span>
+                            </div>
+                            <div>
+                                <p>华东</p>
+                                <span>上海</span>
+                                <span>山东</span>
+                                <span>江苏</span>
+                                <span>安徽</span>
+                                <span>江西</span>
+                                <span>浙江</span>
+                                <span>福建</span>
+                            </div>
+                            <div>
+                                <p>华中</p>
+                                <span>湖北</span>
+                                <span>湖南</span>
+                                <span>河南</span>
+                            </div>
+                            <div>
+                                <p>华南</p>
+                                <span>广东</span>
+                                <span>广西</span>
+                                <span>海南</span>
+                            </div>
+                            <div>
+                                <p>东北</p>
+                                <span>辽宁</span>
+                                <span>吉林</span>
+                                <span>黑龙江</span>
+                            </div>
+                            <div>
+                                <p>西北</p>
+                                <span>陕西</span>
+                                <span>甘肃</span>
+                                <span>宁夏</span>
+                                <span>新疆</span>
+                                <span>青海</span>
+                            </div>
+                            <div>
+                                <p>西南</p>
+                                <span>重庆</span>
+                                <span>四川</span>
+                                <span>贵州</span>
+                                <span>云南</span>
+                                <span>西藏</span>
+                            </div>
+                            <div>
+                                <p></p>
+                                <span>跨省</span>
+                                <span>香港</span>
+                                <span>澳门</span>
+                                <span>台湾</span>
+                                <span>海外</span>
+                            </div>
+                        </div>
+                        <div class="trade hidden" id="trade">
+                            <span>全部</span>
+                            <p></p>
+                            <span>交通运输</span>
+                            <span class="width">市政房地产建筑</span>
+                            <span>水利桥梁</span>
+                            <span>能源</span>
+                            <span>化工</span>
+                            <span>环保</span>
+                            <span class="width">冶金矿产原材料</span>
+                            <span class="width">机械电子电器</span>
+                            <span class="width">网络通讯计算机</span>
+                            <span>医疗卫生</span>
+                            <span>园林绿化</span>
+                            <span>商业服务</span>
+                            <span>出版印刷</span>
+                            <span class="width">轻工纺织食品</span>
+                            <span>农林牧渔</span>
+                            <span class="width">科技文教旅游</span>
+                            <span>其它</span>
+                        </div>
+                        <div class="time hidden" id="time">
+                            <span>近一天</span>
+                            <span>近一周</span>
+                            <span>近二周</span>
+                            <span>近一月</span>
+                            <span>近三月</span>
+                            <span>近一年</span>
+                        </div>
+                        <!--底部确定重置按钮-->
+                        <div class="reset-fix hidden">
+                            <div class="reset">重置</div>
+                            <div class="fix">确定</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="middle-tab" style="margin-bottom:0;">
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- <script src="/js/search.js"></script> -->
+</body>
+</html>

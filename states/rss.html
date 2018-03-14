@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="Ie=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no, address=no">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/SearchHeader.css">
+    <link rel="stylesheet" type="text/css" href="css/rss.css">
+    <script type="text/javascript" src="js/flexible_css.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/rss.js"></script>
+    <title>我的订阅</title>
+</head>
+<body>
+<div id="search">
+    <div data-reactroot="" class="module-list">
+
+        <div class="Search">
+            <div class="top-search">
+                <div class="search-container">
+                    <a class="serch-btn" href="javascript:;"><img src="img/search.png"></a>
+                    <form action="javascript:;">
+                        <input class="search-input" value="" name="" placeholder="请输入与你要搜索的内容" type="text" style="width:7.4rem;color:#999;">
+                        <img src="img/clear.png" id="clear" class="clear">
+                    </form>
+                </div>
+                <a class="cancel" href="javascript:;" id="Search">订阅</a>
+                <div class="catalogue">
+                    <ul class="ul-table">
+                        <li name="column">栏目<img src="img/down_arrow.png"/></li>
+                        <li name="content">内容<img src="img/down_arrow.png"/></li>
+                        <li name="area">地区<img src="img/down_arrow.png"/></li>
+                        <li name="trade">行业<img src="img/down_arrow.png"/></li>
+                        <li name="time">时间<img src="img/down_arrow.png"/></li>
+                    </ul>
+                    <!--已订阅-->
+                    <div class="search-history" id="searchHistory">
+                        <ul class="dynamic">
+                            <a href="javascript:;" class="btn-delete" id="Delete">已订阅的关键词</a>
+                            <li class="dynamic-list">
+                                <div class="dynamic-input"><a href="javascript:;"></a></div>
+                                <p class="dynamic-list-title limit">烟草+招标公告+标题+河北+近一年</p >
+                                <a href="javascript:;" class="dynamic-list-delete">删除</a >
+                            </li>
+                            <li class="dynamic-list">
+                                <div class="dynamic-input"><a href="javascript:;"></a></div>
+                                <p class="dynamic-list-title limit">烟草+招标公告+标题+河北+近一年</p >
+                                <a href="javascript:;" class="dynamic-list-delete">删除</a >
+                            </li>
+                            <li class="dynamic-list">
+                                <div class="dynamic-input"><a href="javascript:;"></a></div>
+                                <p class="dynamic-list-title limit">烟草+招标公告+标题+河北+近一年</p >
+                                <a href="javascript:;" class="dynamic-list-delete">删除</a >
+                            </li>
+                        </ul>
+                        <div class="check-delete">
+                            <div class="all-check">全选</div>
+                            <div class="all-delete">批量删除</div>
+                        </div>
+                    </div>
+
+                    <!--table选择-->
+                    <div class="catalogue-list">
+                        <div class="column hidden" id="column">
+                            <span class="active">全部</span>
+                            <p></p>
+                            <span>工程招标</span>
+                            <span>货物招标</span>
+                            <span>服务招标</span>
+                            <span>招标预告</span>
+                            <span>中标公示</span>
+                            <span>政府采购</span>
+                            <span>企业采购</span>
+                        </div>
+                        <div class="content hidden" id="content">
+                            <span>标题</span>
+                            <span>内容</span>
+                            <span>招标编号</span>
+                        </div>
+                        <div class="area hidden" id="area">
+                            <span>全国</span>
+                            <p></p>
+                            <div>
+                                <p>华北</p>
+                                <span>北京</span>
+                                <span>天津</span>
+                                <span>河北</span>
+                                <span>山西</span>
+                                <span>内蒙古</span>
+                            </div>
+                            <div>
+                                <p>华东</p>
+                                <span>上海</span>
+                                <span>山东</span>
+                                <span>江苏</span>
+                                <span>安徽</span>
+                                <span>江西</span>
+                                <span>浙江</span>
+                                <span>福建</span>
+                            </div>
+                            <div>
+                                <p>华中</p>
+                                <span>湖北</span>
+                                <span>湖南</span>
+                                <span>河南</span>
+                            </div>
+                            <div>
+                                <p>华南</p>
+                                <span>广东</span>
+                                <span>广西</span>
+                                <span>海南</span>
+                            </div>
+                            <div>
+                                <p>东北</p>
+                                <span>辽宁</span>
+                                <span>吉林</span>
+                                <span>黑龙江</span>
+                            </div>
+                            <div>
+                                <p>西北</p>
+                                <span>陕西</span>
+                                <span>甘肃</span>
+                                <span>宁夏</span>
+                                <span>新疆</span>
+                                <span>青海</span>
+                            </div>
+                            <div>
+                                <p>西南</p>
+                                <span>重庆</span>
+                                <span>四川</span>
+                                <span>贵州</span>
+                                <span>云南</span>
+                                <span>西藏</span>
+                            </div>
+                            <div>
+                                <p></p>
+                                <span>跨省</span>
+                                <span>香港</span>
+                                <span>澳门</span>
+                                <span>台湾</span>
+                                <span>海外</span>
+                            </div>
+                        </div>
+                        <div class="trade hidden" id="trade">
+                            <span>全部</span>
+                            <p></p>
+                            <span>交通运输</span>
+                            <span class="width">市政房地产建筑</span>
+                            <span>水利桥梁</span>
+                            <span>能源</span>
+                            <span>化工</span>
+                            <span>环保</span>
+                            <span class="width">冶金矿产原材料</span>
+                            <span class="width">机械电子电器</span>
+                            <span class="width">网络通讯计算机</span>
+                            <span>医疗卫生</span>
+                            <span>园林绿化</span>
+                            <span>商业服务</span>
+                            <span>出版印刷</span>
+                            <span class="width">轻工纺织食品</span>
+                            <span>农林牧渔</span>
+                            <span class="width">科技文教旅游</span>
+                            <span>其它</span>
+                        </div>
+                        <div class="time hidden" id="time">
+                            <span>近一天</span>
+                            <span>近一周</span>
+                            <span>近二周</span>
+                            <span>近一月</span>
+                            <span>近三月</span>
+                            <span>近一年</span>
+                        </div>
+                        <!--底部确定重置按钮-->
+                        <div class="reset-fix hidden">
+                            <div class="reset">重置</div>
+                            <div class="fix">确定</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="middle-tab" style="margin-bottom:0;">
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
