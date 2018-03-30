@@ -19,6 +19,7 @@
     "koa-static": "^4.0.2",
     "koa-static-cache": "^5.1.1",
     "koa-static2": "^0.1.8",
+    "koa2-file-server": "0.0.3",
     "node-fetch": "^1.7.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
