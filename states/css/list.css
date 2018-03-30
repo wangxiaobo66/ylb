@@ -1,0 +1,64 @@
+.middle-tab{
+    margin-top: 1.2rem;
+  }
+  .upData-p{
+    color: #999;
+    font-size: 0.4rem;
+    text-align:center;
+    padding:0.3rem 0;
+    margin-bottom: 50px;
+  }
+  .page-a{
+    border:1px solid #d9d9d9;
+    text-align: center;
+    width:0.8rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    color: #999;
+    border-radius: 0.1rem;
+    display: inline-block;
+    margin-right: 0.1rem;
+    box-sizing: border-box;
+    font-size:0.4rem;
+  }
+  .list-page{
+    text-align: center;
+    margin:0.2666666667rem 0 0.2666666667rem 0;
+  }
+  .list-page span{
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #999;
+    border-radius: 0.1rem;
+    display: inline-block;
+    margin-right: 0.1rem;
+    box-sizing: border-box;
+    font-size: 0.4rem;
+  }
+  .list-page span.next-a{
+    width: 1.4rem;
+  }
+  .list-page span.omit-a{
+    border:none;
+    display: inline-block;
+    padding-top: 0.2rem;
+    color: #999;
+    margin-right: 0.1rem;
+  }
+  .list-page span a{
+    color: #999;
+  }
+  a, a:hover, a:visited, a:link, a:active {
+    text-decoration: none!important;
+  }
+ a{
+    text-decoration: none;
+  }
+  .list-page span.active{
+    background-color:#ff3333;
+    color: #fff;
+    border:none;
+  }

@@ -1,0 +1,112 @@
+.Login {
+    background-color: #fff;
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  .nav {
+    width: 100%;
+    line-height: 0.8rem;
+    font-size: 0.32rem;
+    color: #999;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .nav>span {
+    line-height: 0.8rem;
+    display: inline-block;
+    padding: 0 0.2666666667rem;
+  }
+  .Login .content {
+    width: 100%;
+    padding: 0 0.2666666667rem;
+    height: 1.2rem;
+    border-radius: 0.0666666667rem
+  }
+  .input-full {
+    width: 100%;
+    border-radius: 0.0666666667rem;
+    border:1px solid #d9d9d9;
+    padding: .38rem 0.2rem;
+    font-size: 0.3466666667rem;
+  }
+  .Login .content .title {
+    padding: 0.5333333333rem 0 0.2666666667rem .05rem;
+    font-size:  0.3733333333rem;
+    color: #666;
+  }
+  .forget {
+    color: #ff3333;
+    float: right;;
+    padding: 0.5333333333rem 0;
+    font-size: 0.3466666667rem;
+  }
+  .forget a{
+    color: #ff3333;
+  }
+  .Login .btn {
+    float: left;
+    line-height: 1.2rem;
+    width: 100%;
+    font-size: 0.3733333333rem;
+    text-align: center;
+    border-radius: 0.0666666667rem;
+  }
+
+  .btn.btn-login {
+    border:1px solid #ff3333;
+    background-color: #fff;
+    color: #ff3333;
+
+  }
+  .btn.btn-register {
+    color: #fff;
+    background-color: #ff3333;
+    border:none;
+    margin-top: 0.5333333333rem;
+  }
+  .footer-nav {
+    float: left;
+    width:100%;
+  }
+  .reg-code{
+    width:5.6rem;
+    border-radius: 0.0666666667rem;
+    border: 1px solid #d9d9d9;
+    padding: .4rem 0.2rem;
+    font-size: 0.3466666667rem;
+    margin-top: 0.2666666667rem;
+  }
+  .reg-iq {
+    color: #ff3333;
+    text-align: center;
+    display: inline-block;
+    width: 3.5733333333rem;
+    padding: 0.38rem 0;
+    float: right;
+    border-radius: 0.0666666667rem;
+    border: 1px solid #d9d9d9;
+    font-size: 0.3466666667rem;
+    margin-top: 0.2666666667rem;
+  }
+  .strength{
+    margin-top: 0.2666666667rem;
+    line-height: 0.5333333333rem;
+  }
+  .strength>li {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.3466666667rem;
+}
+.weak {
+    background-color: #ff3333;
+}
+.middle {
+    background-color: #ffd200;
+    margin: 0 1.5%;
+}
+.strong {
+    background-color: #4dc329;
+}

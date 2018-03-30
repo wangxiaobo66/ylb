@@ -50,6 +50,7 @@ $(function(){
     });
     //这里开始
     $('.catalogue .ul-table').on('click','li',function(e){
+        $('.catalogue-list').show();
         $('#searchHistory,#searchHot').hide();
         $('.catalogue ul li').removeClass('active');
         $(this).addClass('active');
@@ -63,7 +64,7 @@ $(function(){
                 $(this).addClass('hidden');
             }
         });
-        console.log(1);
+        showClass(name);
         $('.reset-fix').removeClass('hidden');
     });
     //table切换
@@ -94,6 +95,7 @@ $(function(){
             $('#searchHistory').hide();
         }
     })
+    //再次点击导航
 });
 //数组去重
 function Distinct(array){
@@ -106,4 +108,9 @@ function Distinct(array){
         }
     }
     return res;
+}
+//传递导航参数
+var className;
+function showClass(name){
+    className = name;
 }

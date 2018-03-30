@@ -1,0 +1,115 @@
+.Register {
+    background-color: #fff;
+    display: block;
+    padding-top: 1.2rem;
+  }
+
+  /*input组件样式*/
+  .reg-list {
+    padding: 0.5333333333rem 0.2666666667rem 0 0.2666666667rem;
+    color: #666;
+    font-size: 0.3466666667rem;
+  }
+
+  .reg-input,.reg-input-zone,.reg-input-tel,.reg-code,.reg-iq{
+    border-radius: 0.0666666667rem;
+    border: 1px solid #d9d9d9;
+    padding: .4rem 0.2rem;
+    font-size: 0.3466666667rem;
+    margin-top: 0.2666666667rem;
+  }
+  .reg-input {
+    width: 100%;
+  }
+  .reg-input-zone {
+    width: 2.5rem;
+  }
+  .reg-input-tel {
+    width: 6.25rem;
+  }
+  .reg-code {
+    width: 5.6rem;
+  }
+  .reg-iq {
+    color: #ff3333;
+    text-align: center;
+    display: inline-block;
+    width: 3.5733333333rem;
+    padding:0.38rem 0;
+    float: right;
+  }
+  .line {
+    width: 0.4rem;
+    height: 0;
+    border: 1px solid #d9d9d9;
+    display: inline-block;
+    margin:  0 0.125rem;
+
+  }
+  /*input组件样式*/
+
+  .strength {
+    margin-top: 0.2666666667rem;
+    line-height: 0.5333333333rem;
+  }
+
+  .strength>li {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.3466666667rem;
+  }
+  .weak {
+    background-color: #ff3333;
+  }
+  .middle {
+    background-color: #ffd200;
+    margin: 0 1.5%
+  }
+  .strong {
+    background-color: #4dc329;
+  }
+
+  .strength.w .middle,.strength.w .strong {
+    display: none;
+  }
+
+  .strength.t  .strong {
+    display: none;
+  }
+
+  .btn-register {
+    float: left;
+    line-height: 1.2rem;
+    width: 9.4666666667rem;
+    font-size: 0.3733333333rem;
+    text-align: center;
+    border-radius: 0.0666666667rem;
+    color: #fff;
+    background-color: #ff3333;
+    border: none;
+    margin: 0.5333333333rem 0.2666666667rem 0.8rem .2666666667rem;
+    margin-bottom:2rem;
+  }
+  .area{
+    display: inline-block;
+    width: 96%;
+    margin: 0 2%;
+  }
+  .area span{
+    float: left;
+    font-size: 0.2rem;
+    text-align: center;
+    width: 18%;
+    border-radius: 6%;
+    margin: 0.2rem 1%;
+    line-height: 1rem;
+    background-color: #f5f4fa;
+    color: #333;
+  }
+  .area span.active{
+    background-color: #ff3333;
+    color: #fff;
+  }

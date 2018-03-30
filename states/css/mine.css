@@ -1,0 +1,115 @@
+.Mine {
+    background-color: #fff;
+    display: block;
+    padding-top: 1.2rem;
+}
+/*禁止选中图片*/
+.Mine .icon,.Mine .arrow{
+    user-select:none;
+    -webkit-user-select:none;
+}
+.Mine .content {
+    width: 100%;
+    padding-bottom: 0.5333333333rem;
+    position: relative;
+    text-align: center;
+    border-bottom: 10px solid #f5f5f5;
+}
+/*未付费会员不显示*/
+.Mine .free,.Mine.vip .vip-deadline,.Mine.vip .vip-hot-line{
+    display: block;
+}
+.Mine.vip .free,.Mine .vip-deadline,.Mine .vip-hot-line {
+    display: none;
+}
+.Mine.vip .btn-register {
+    margin-top: 1.8666666667rem;
+}
+.avatar {
+    width: 1.8933333333rem;
+    height: 1.8933333333rem;
+    border-radius:100%;
+    margin: 0.5333333333rem 0 0.2666666667rem 0;
+    background-color: #d9d9d9;
+    border:none;
+    line-height: 0;
+}
+
+.gray {
+    color: #666;
+    font-size: 0.32rem;
+}
+
+.free {
+    color: #ff3333;
+    margin-top: 0.2rem;
+    font-size: 0.2933333333rem;
+    padding:0 0.8rem;
+    line-height: 1.5;
+}
+
+.logo-vip {
+    display: inline-block;
+    padding:.03rem .05rem;
+    margin-top: 0.5333333333rem;
+    border-radius: 0.04rem;
+    background-color: #4dc329;
+    color: #fff;
+    line-height: 0.3733333333rem;
+    font-size: 0.32rem;
+}
+
+.lists {
+    font-size: 0.3466666667rem;
+    color: #666;
+    height: 1.3333333333rem;
+    line-height: 1.3333333333rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.lists span{
+    color:#999;
+}
+.icon {
+    vertical-align: middle;
+    width: 0.5333333333rem;
+    margin: 0 0.2666666667rem 3px 0.2666666667rem;
+}
+.btn-register {
+    float: left;
+    line-height: 1.2rem;
+    width: 9.4666666667rem;
+    font-size: 0.3733333333rem;
+    text-align: center;
+    border-radius: 0.0666666667rem;
+    color: #fff;
+    background-color: #ff3333;
+    border: none;
+    margin: 1.1333333333rem 0.2666666667rem 0.8rem .2666666667rem;
+}
+.btn-login {
+    float: left;
+    line-height: 1.2rem;
+    width: 9.4666666667rem;
+    font-size: 0.3733333333rem;
+    text-align: center;
+    border-radius: 0.0666666667rem;
+    color: #ff3333;
+    background-color: #fff;
+    margin: 0rem 0.2666666667rem 0.8rem .2666666667rem;
+    border:1px solid #ff3333;
+}
+
+.lists>span {
+    float: right;
+    margin-right: 0.2666666667rem;
+    color: #999;
+}
+.lists>span a{
+    color: #999;
+}
+/*专属客服&客服专线*/
+.vip-hot-line>span,.hot-line {
+    float: right;
+    margin-right: 0.2666666667rem;
+    color: #999;
+}

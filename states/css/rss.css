@@ -1,0 +1,77 @@
+.search-history ul li.dynamic-list{
+    position: relative;
+    padding: 0.4rem 0;
+    margin: 0 0.2666666667rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.dynamic-list-title.limit{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 80%;
+    margin-left: 8%;
+}
+.dynamic-list-title{
+    line-height: 1.25;
+    font-size: 0.4266666667rem;
+    color: #666;
+    margin-bottom: 0.1333333333rem;
+}
+.dynamic-input{
+    position: absolute;
+    left: 0;
+    width: .6rem;
+    height: .6rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+.dynamic-list-delete{
+    color: #999;
+    line-height: 1.25;
+    font-size: 0.4266666667rem;
+    padding: 0 0.1333333333rem;
+    position: absolute;
+    right: 0;
+    top: .4rem;
+}
+.dynamic-input.curr{
+    background-color: #ff3333;
+    border: 1px solid #ff3333;
+}
+.dynamic-input.curr a{
+    display: inline-block;
+    width: .18rem;
+    height:.05rem;
+    margin:-0.53rem 0 0 .07rem;
+    background: #fff;
+    line-height: 0;
+    font-size:0;
+    vertical-align: middle;
+    -webkit-transform: rotate(45deg);
+}
+.dynamic-input.curr a:after{
+    content:'/';
+    display:block;
+    width: .36rem;
+    height:.05rem;
+    background: #fff;
+    -webkit-transform: rotate(-90deg) translateY(-50%) translateX(50%);
+}
+.check-delete{
+    width:100%;
+}
+.check-delete div{
+    width:23%;
+    text-align: center;
+    float: left;
+    background-color: #f5f4fa;
+    border-radius: 6%;
+    line-height: 1rem;
+    font-size:0.4rem;
+    margin: 0.2rem 1%;
+    color:#333;
+}
+.check-delete div.active{
+    background-color: #ff3333;
+    color: #fff;
+}

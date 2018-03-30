@@ -60,6 +60,18 @@
                             <li>银行招标</li><li>铁塔招标</li><li>光伏招标</li>
                             <li>联通招标</li><li>电梯招标</li><li>高速公路</li>
                         </ul>
+                        <div style="border-top: 10px solid #f5f5f5;float: left;width: 100%;">
+                            <footer class="footer-nav">
+                                <nav><span><a href="/navigater">网站导航</a></span>
+                                    <span><a href="tel:400-006-6655">客服中心</a></span>
+                                    <span>
+                                    <a href="https://www.chinabidding.cn/" onclick="setCookie()">切换电脑版</a>
+                                </span>
+                                    <span><a href="/index">返回首页</a></span>
+                                </nav>
+                                <div class="copyright">copyright@采购与招标网</div>
+                            </footer>
+                        </div>
                     </div>
                     <!--table选择-->
                     <div class="catalogue-list">
@@ -75,113 +87,128 @@
                             <span class="column_class" name="7">企业采购</span>
                         </div>
                         <div class="content hidden" id="content">
-                            <span>标题</span>
-                            <span>内容</span>
-                            <span>招标编号</span>
+                            <span name="TITLE">标题</span>
+                            <span name="">内容</span>
                         </div>
                         <div class="area hidden" id="area">
-                            <span>全国</span>
+                            <span class="" id="all_area">全国</span>
                             <p></p>
                             <div>
                                 <p>华北</p>
-                                <span>北京</span>
-                                <span>天津</span>
-                                <span>河北</span>
-                                <span>山西</span>
-                                <span>内蒙古</span>
+                                <span class="area_class" name="1">北京</span>
+                                <span class="area_class" name="3">天津</span>
+                                <span class="area_class" name="5">河北</span>
+                                <span class="area_class" name="6">山西</span>
+                                <span class="area_class" name="7">内蒙古</span>
                             </div>
                             <div>
                                 <p>华东</p>
-                                <span>上海</span>
-                                <span>山东</span>
-                                <span>江苏</span>
-                                <span>安徽</span>
-                                <span>江西</span>
-                                <span>浙江</span>
-                                <span>福建</span>
+                                <span class="area_class" name="2">上海</span>
+                                <span class="area_class" name="16">山东</span>
+                                <span class="area_class" name="11">江苏</span>
+                                <span class="area_class" name="13">安徽</span>
+                                <span class="area_class" name="15">江西</span>
+                                <span class="area_class" name="12">浙江</span>
+                                <span class="area_class" name="14">福建</span>
                             </div>
                             <div>
                                 <p>华中</p>
-                                <span>湖北</span>
-                                <span>湖南</span>
-                                <span>河南</span>
+                                <span class="area_class" name="18">湖北</span>
+                                <span class="area_class" name="19">湖南</span>
+                                <span class="area_class" name="17">河南</span>
                             </div>
                             <div>
                                 <p>华南</p>
-                                <span>广东</span>
-                                <span>广西</span>
-                                <span>海南</span>
+                                <span class="area_class" name="20">广东</span>
+                                <span class="area_class" name="21">广西</span>
+                                <span class="area_class" name="22">海南</span>
                             </div>
                             <div>
                                 <p>东北</p>
-                                <span>辽宁</span>
-                                <span>吉林</span>
-                                <span>黑龙江</span>
+                                <span class="area_class" name="8">辽宁</span>
+                                <span class="area_class" name="9">吉林</span>
+                                <span class="area_class" name="10">黑龙江</span>
                             </div>
                             <div>
                                 <p>西北</p>
-                                <span>陕西</span>
-                                <span>甘肃</span>
-                                <span>宁夏</span>
-                                <span>新疆</span>
-                                <span>青海</span>
+                                <span class="area_class" name="26">陕西</span>
+                                <span class="area_class" name="28">甘肃</span>
+                                <span class="area_class" name="31">宁夏</span>
+                                <span class="area_class" name="30">新疆</span>
+                                <span class="area_class" name="29">青海</span>
                             </div>
                             <div>
                                 <p>西南</p>
-                                <span>重庆</span>
-                                <span>四川</span>
-                                <span>贵州</span>
-                                <span>云南</span>
-                                <span>西藏</span>
+                                <span class="area_class" name="4">重庆</span>
+                                <span class="area_class" name="27">四川</span>
+                                <span class="area_class" name="23">贵州</span>
+                                <span class="area_class" name="24">云南</span>
+                                <span class="area_class" name="25">西藏</span>
                             </div>
                             <div>
                                 <p></p>
-                                <span>跨省</span>
-                                <span>香港</span>
-                                <span>澳门</span>
-                                <span>台湾</span>
-                                <span>海外</span>
+                                <span class="area_class" name="36">跨省</span>
+                                <span class="area_class" name="32">香港</span>
+                                <span class="area_class" name="33">澳门</span>
+                                <span class="area_class" name="34">台湾</span>
+                                <span class="area_class" name="40">海外</span>
                             </div>
                         </div>
                         <div class="trade hidden" id="trade">
-                            <span>全部</span>
+                            <span id="all_cate">全部</span>
                             <p></p>
-                            <span>交通运输</span>
-                            <span class="width">市政房地产建筑</span>
-                            <span>水利桥梁</span>
-                            <span>能源</span>
-                            <span>化工</span>
-                            <span>环保</span>
-                            <span class="width">冶金矿产原材料</span>
-                            <span class="width">机械电子电器</span>
-                            <span class="width">网络通讯计算机</span>
-                            <span>医疗卫生</span>
-                            <span>园林绿化</span>
-                            <span>商业服务</span>
-                            <span>出版印刷</span>
-                            <span class="width">轻工纺织食品</span>
-                            <span>农林牧渔</span>
-                            <span class="width">科技文教旅游</span>
-                            <span>其它</span>
+                            <span class="cate_class" name="1">交通运输</span>
+                            <span class="width cate_class" name="3">市政房地产建筑</span>
+                            <span class="cate_class" name="4">水利桥梁</span>
+                            <span class="cate_class" name="17">能源</span>
+                            <span class="cate_class" name="18">化工</span>
+                            <span class="cate_class" name="6">环保</span>
+                            <span class="width cate_class" name="10">冶金矿产原材料</span>
+                            <span class="width cate_class" name="5">机械电子电器</span>
+                            <span class="width cate_class" name="2">网络通讯计算机</span>
+                            <span class="cate_class" name="8">医疗卫生</span>
+                            <span class="cate_class" name="16">园林绿化</span>
+                            <span class="cate_class" name="14">商业服务</span>
+                            <span class="cate_class" name="11">出版印刷</span>
+                            <span class="width cate_class" name="12">轻工纺织食品</span>
+                            <span class="cate_class" name="13">农林牧渔</span>
+                            <span class="width cate_class" name="9">科技文教旅游</span>
+                            <span class="cate_class" name="15">其它</span>
                         </div>
                         <div class="time hidden" id="time">
-                            <span>近一天</span>
-                            <span>近一周</span>
-                            <span>近二周</span>
-                            <span>近一月</span>
-                            <span>近三月</span>
-                            <span>近一年</span>
+                            <span class="time_class" name="1">近一天</span>
+                            <span class="time_class" name="7">近一周</span>
+                            <span class="time_class" name="30">近一月</span>
+                            <span class="time_class" name="90">近三月</span>
+                            <span class="time_class" name="365">近一年</span>
                         </div>
                         <!--底部确定重置按钮-->
                         <div class="reset-fix hidden">
-                            <div class="reset">重置</div>
-                            <div class="fix">确定</div>
+                            <div class="reset" id="reset">重置</div>
+                            <div class="fix" id="fix">确定</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul class="middle-tab" style="margin-bottom:0;">
-            </ul>
+            <div class="search-content hidden">
+                <ul class="middle-tab" style="margin-bottom:0;" id="informationList">
+
+                </ul>
+                <div class="moreInfo dynamic-list" id="moreInfo">显示更多</div>
+                <div class="prompt">为了使您获得更好的信息阅读体验，我们仅向您提供近一年的4000条记录。如需帮助请拨打热线：<a href="tel:400-006-6655">400-006-6655</a></div>
+                <div style="border-top: 10px solid #f5f5f5;float: left;width: 100%;">
+                    <footer class="footer-nav">
+                        <nav><span><a href="/navigater">网站导航</a></span>
+                            <span><a href="tel:400-006-6655">客服中心</a></span>
+                            <span>
+                                    <a href="https://www.chinabidding.cn/" onclick="setCookie()">切换电脑版</a>
+                                </span>
+                            <span><a href="/index">返回首页</a></span>
+                        </nav>
+                        <div class="copyright">copyright@采购与招标网</div>
+                    </footer>
+                </div>
+            </div>
         </div>
     </div>
 </div>
